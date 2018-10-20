@@ -1,0 +1,24 @@
+vita ar game todo list
+
+
+-bug test player movement
+
+-create player shoot behaviour
+
+-sort out issue with detecting markers
+
+-Create enemy spawner
+
+-Create base
+
+-Create enemies
+
+-Create turrets
+
+-find models
+
+-create wall boundaries
+
+(potential stuff)
+-use multi-threading for update methods
+-remember i've got to do my honours project

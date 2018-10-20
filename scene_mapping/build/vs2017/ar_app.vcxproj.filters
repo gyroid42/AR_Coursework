@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;cc;s;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp</Extensions>
+    </Filter>
+    <Filter Include="vita_shaders">
+      <UniqueIdentifier>{8007e6f1-dfe8-4422-bf14-f5a1bc8f3000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{320982af-9c72-4a3c-a83f-94c9b69f3c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{46e2eb4d-6f76-4391-a447-3a7275410e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{0c041586-e926-41b9-a4dc-ffdf7ef625f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{56402954-3923-4a16-a2e8-2f099da8c30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GEF">
+      <UniqueIdentifier>{7965bfac-312b-4b1e-898b-d86286497e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GEF">
+      <UniqueIdentifier>{e2b19dcc-6a18-4433-ae20-7e7dd7d80eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects">
+      <UniqueIdentifier>{b591b012-36ff-4d52-ab5c-aad609c76439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Behaviours">
+      <UniqueIdentifier>{a4ce1f26-28c7-46b5-a26c-316458f62814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{533cc7da-7833-43d3-940f-6c1f7502c94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Behaviours">
+      <UniqueIdentifier>{6522ac2b-4418-4d00-aed0-b55550fab34a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Levels">
+      <UniqueIdentifier>{f07316c8-a317-4efb-b31b-4cb36046366e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Levels">
+      <UniqueIdentifier>{f79bf8b0-42bb-438d-8f29-194f774f62a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Behaviours\Gameplay">
+      <UniqueIdentifier>{1739eba8-110f-4bc5-96f8-c815264543f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Behaviours\Gameplay">
+      <UniqueIdentifier>{5ad92957-8e16-49fb-ad38-87c3b277a3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Behaviours\Menu">
+      <UniqueIdentifier>{3aca34cd-80e6-4840-80e8-17ffe8d760d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Behaviours\Menu">
+      <UniqueIdentifier>{b5e0ea80-cdc3-48b1-9a95-c1e46aa2568b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Behaviours\Gameplay\Player">
+      <UniqueIdentifier>{90a08f55-fe98-40fb-a706-5f78ddf7e848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Behaviours\Gameplay\Enemy">
+      <UniqueIdentifier>{2434469a-36ee-4f37-88cb-baa4747b1125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Behaviours\Gameplay\Base">
+      <UniqueIdentifier>{eaa273f2-ad67-4ba9-ad28-563ec7754125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Behaviours\Gameplay\Enemy">
+      <UniqueIdentifier>{5d67a6a4-73fc-4eec-afd7-d9ec2e42d1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Behaviours\Gameplay\Base">
+      <UniqueIdentifier>{c4a0ecee-8724-4134-a85c-43842403dbba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Behaviours\Gameplay\Player">
+      <UniqueIdentifier>{f16ac0d5-7eea-4078-a245-4e9abf741bf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Prefabs">
+      <UniqueIdentifier>{1ac03f30-2a15-45c6-bb26-0d43c33e73a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObjects\Prefabs">
+      <UniqueIdentifier>{0c2f38a5-fe5c-4a22-912a-ed21e3d375b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ar_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FontManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameObjectManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MarkerManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MeshManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Behaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CameraFeed.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main_vita.cpp">
+      <Filter>Source Files\GEF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_builder.cpp">
+      <Filter>Source Files\GEF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_renderer.cpp">
+      <Filter>Source Files\GEF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vertex_colour_unlit_shader.cpp">
+      <Filter>Source Files\GEF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameObject.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Input.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Level.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\LevelManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TestLevel.cpp">
+      <Filter>Source Files\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CameraFeedBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FollowMarkerBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GameControllerBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BaseBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\TurretBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlayerMovementBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PlayerShootBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EnemyBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\EnemySpawnerBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Gameplay\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MenuControllerBehaviour.cpp">
+      <Filter>Source Files\GameObjects\Behaviours\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Player.cpp">
+      <Filter>Source Files\GameObjects\Prefabs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FontManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameObjectManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MarkerManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MeshManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Behaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BehaviourHeaders.h">
+      <Filter>Header Files\GameObjects\Behaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CameraFeed.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_builder.h">
+      <Filter>Header Files\GEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_renderer.h">
+      <Filter>Header Files\GEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vertex_colour_unlit_shader.h">
+      <Filter>Header Files\GEF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameObject.h">
+      <Filter>Header Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ar_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ar_app_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Input.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\LevelManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Level.h">
+      <Filter>Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TestLevel.h">
+      <Filter>Header Files\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CameraFeedBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FollowMarkerBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GameControllerBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlayerMovementBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PlayerShootBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EnemyBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\EnemySpawnerBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TurretBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BaseBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Gameplay\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MenuControllerBehaviour.h">
+      <Filter>Header Files\GameObjects\Behaviours\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Player.h">
+      <Filter>Header Files\GameObjects\Prefabs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\vita_shaders\vertex_colour_unlit_ps.cg">
+      <Filter>vita_shaders</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\vita_shaders\vertex_colour_unlit_vs.cg">
+      <Filter>vita_shaders</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
