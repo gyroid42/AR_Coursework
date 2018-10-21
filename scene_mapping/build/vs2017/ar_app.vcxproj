@@ -101,6 +101,7 @@
     <ClCompile Include="..\..\primitive_renderer.cpp" />
     <ClCompile Include="..\..\TestLevel.cpp" />
     <ClCompile Include="..\..\Text.cpp" />
+    <ClCompile Include="..\..\Timer.cpp" />
     <ClCompile Include="..\..\TurretBehaviour.cpp" />
     <ClCompile Include="..\..\vertex_colour_unlit_shader.cpp" />
   </ItemGroup>
@@ -134,6 +135,7 @@
     <ClInclude Include="..\..\primitive_renderer.h" />
     <ClInclude Include="..\..\TestLevel.h" />
     <ClInclude Include="..\..\Text.h" />
+    <ClInclude Include="..\..\Timer.h" />
     <ClInclude Include="..\..\TurretBehaviour.h" />
     <ClInclude Include="..\..\vertex_colour_unlit_shader.h" />
   </ItemGroup>
